@@ -30,17 +30,20 @@ roomDoc = {
 
 userDoc1 = {
         "username": "alulushi",
-        "heldspaces": []
+        "heldspaces": [],
+        "placedbids": [],
 }
 
 userDoc2 = {
         "username": "gmarsillac",
-        "heldspaces": []
+        "heldspaces": [],
+        "placedbids": [],
 }
 
 userDoc3 = {
         "username": "msingson",
-        "heldspaces": []
+        "heldspaces": [],
+        "placedbids": [],
 }
 
 parking.insert_one(parkingDoc)
