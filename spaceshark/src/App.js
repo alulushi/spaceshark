@@ -71,10 +71,10 @@ function Home(){
       <header className="App-header">
         <img src={logo}/>
         <h1>
-          SpaceShark
+          SPACESHARK
         </h1>
         <h3>
-          The booking system for capitalists
+          The booking system for capitalists.
         </h3>
         <h3>
           Harness the power of the free market

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 .App {
   text-align: center;
 }
@@ -7,18 +9,50 @@
 }
 
 .App-header {
-  background-color: #FF5733;
+  background-color: #1a2866;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Lato', sans-serif;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+table, th, td { 
+  border-collapse: collapse;
+  background-color: white;
+  border: 2px solid white;
+  border-color: #4b4b4b;
+  padding: 13px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #4b4b4b
+}
+
+button {
+  height: 2em;
+  width: 50px;
+  background-color: #4b4b4b;
+  color: white;
+   font-family: 'Lato', sans-serif;
+   margin: 10px;
+   border: none;
+   text-transform: lowercase;
+}
+select {
+background-color: white;
+color: #272727;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+text-transform: capitalize;
 }
 
 .button {
@@ -28,7 +62,7 @@
 }
 
 a:link, a:visited {
-  background-color: blue;
+  background-color: #4b4b4b;
   color: white;
   padding: 14px 25px;
   margin: 10px;
